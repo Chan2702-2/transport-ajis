@@ -1,7 +1,7 @@
 {
-    "buildCommand": "composer install --no-dev --optimize-autoloader && npm run build",
+    "buildCommand": "npm run build",
     "outputDirectory": "public/build",
-    "framework": null,
+    "framework": "laravel",
     "routes": [
         {
             "src": "/build/(.*)",
